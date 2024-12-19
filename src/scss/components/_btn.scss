@@ -1,0 +1,26 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 150%;
+  transition: var(--main-trs);
+  cursor: pointer;
+
+  &--theme-dark {
+    color: var(--white);
+    background-color: rgba(249, 249, 249, 0.15);
+  }
+
+  &--theme-light {
+    color: var(--dark-primary);
+    background-color: var(--light-grey);
+  }
+
+  &--theme-darker {
+    color: var(--white);
+    background-color: var(--dark-primary);
+  }
+}

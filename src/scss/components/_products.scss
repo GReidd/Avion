@@ -1,0 +1,11 @@
+.products {
+  padding-top: 80px;
+  padding-bottom: 56px;
+  &__item {
+    grid-column: 3 span;
+
+    &--big {
+      grid-column: 6 span;
+    }
+  }
+}
